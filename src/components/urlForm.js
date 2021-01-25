@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import sendUrl from "../api/sendUrl";
 import getUrlList from "../api/getUrlList";
 
-const Form = ({ setUrlList }) => {
+const UrlForm = ({ setUrlList }) => {
   const [url, setUrl] = useState("");
   const [slug, setSlug] = useState("");
   const [isError, setIsError] = useState(false);
@@ -104,4 +104,4 @@ const Form = ({ setUrlList }) => {
   );
 };
 
-export default Form;
+export default UrlForm;

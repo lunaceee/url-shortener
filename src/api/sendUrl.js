@@ -1,5 +1,7 @@
 const randomstring = require("randomstring");
 
+const { REACT_APP_ACCESS_TOKEN } = process.env;
+
 const sendUrl = async (url, slug) => {
   if (slug === "") {
     //If there's no given custom slug, generate a 5 character random string as the slug
@@ -14,7 +16,7 @@ const sendUrl = async (url, slug) => {
   const response = await fetch("https://api.bely.me/links", {
     headers: {
       "Content-Type": "application/json",
-      "GB-Access-Token": "141332b3982ce6f66783a26efd64bdba",
+      "GB-Access-Token": REACT_APP_ACCESS_TOKEN,
     },
     method: "POST",
     body: JSON.stringify(data),

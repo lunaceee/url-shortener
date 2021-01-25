@@ -1,5 +1,5 @@
-import Form from "./components/urlForm";
-import List from "./components/urlList";
+import UrlForm from "./components/UrlForm";
+import UrlList from "./components/UrlList";
 import React, { useState } from "react";
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
         <h1 className="text-white">URL shortener</h1>
       </header>
       <main className="container mx-auto mb-10 grid gap-4 lg:grid-flow-col justify-items-center">
-        <Form setUrlList={setUrlList} />
-        <List urlList={urlList} setUrlList={setUrlList} />
+        <UrlForm setUrlList={setUrlList} />
+        <UrlList urlList={urlList} setUrlList={setUrlList} />
       </main>
       <footer className="h-40"></footer>
     </div>
