@@ -56,7 +56,6 @@ const UrlForm = ({ setUrlList }) => {
           <input
             id="url"
             name="url"
-            label="url"
             type="url"
             placeholder="https://example.com"
             onChange={handleChangeUrl}

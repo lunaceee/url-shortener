@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^12.1.10",
     "autoprefixer": "^9",
     "jest-fetch-mock": "^3.0.3",
-    "jsdom": "15",
     "postcss": "^7",
     "randomstring": "^1.1.5",
     "react": "^17.0.1",

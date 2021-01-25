@@ -4,12 +4,12 @@
 
 [Live demo](https://goldbelly-url-shortener.netlify.app/)
 
-## Project summary
+## Project Summary
 
 This project is based on Create React App.
 
 - CSS: I used Tailwindcss as the CSS framework to come up with a quick design for the project.
-- Functionality: I used [randomstring](https://www.npmjs.com/package/randomstring) generate random slugs for the URLs when there's no custom input from the user.
+- Functionality: I used [randomstring](https://www.npmjs.com/package/randomstring) to generate random slugs for the URLs when there's no custom input from the user.
 - State management: I used React Hooks for managing the states, including error handling.
 - Data fetching: I used browser's `Fetch` API and `async await` to communicate with the server API endpoint.
 - Input field validation: I'm using the built-in input `type` and `pattern` to validate the url and slug value prior to form submission.
