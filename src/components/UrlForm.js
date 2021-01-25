@@ -80,7 +80,6 @@ const UrlForm = ({ setUrlList }) => {
           </div>
           <button
             type="submit"
-            id="submitBtn"
             className="mt-2 w-full h-12 px-4 py-2 bg-blue-500 rounded hover:bg-blue-300 text-white transition-all duration-300"
           >
             Grab the shorty
